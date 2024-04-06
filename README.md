@@ -16,9 +16,12 @@ One thing I want to program defensively is that I don't want to be able to remov
 
 
 # Reflection  
-As per usual, my plans change, and they change fluidly (in this case, meaning constantly). I decided to start with only one choice "marbles" instead of having three colors. I could go in and add the color functionality now, but I was trying to maintain some level of simplicity. My goal was to make this program as simple as possible, while also being as unbreakable as possible.
+As per usual my plans change, and they change fluidly (in this case, meaning constantly). I decided to start with only one choice "marbles" instead of having three colors. I could go in and add the color functionality now, but I was trying to maintain some level of simplicity. My goal was to make this program as simple as possible, while also being as unbreakable as possible.
 
-I think adding the three colors would increase the length of my source code by at least 10 lines.
+I think adding the three colors would increase the length of my source code by at least 20 lines.
 
+Testing: I tested manually in all of the ways I could imagine. I planned for users inputting the wrong data types, and I had to go back and solve the problem of integer overflow when the user input or the number of marbles in the bag exceeds the max limit for the machine. And I only just realised that a 32-bit machine might not be able to handle a number as large as 2 billion. More testing is needed! (but I like having my large number)
+
+In the end, I am happy with the functionality I have. The program prompts the user when necessary and the user is able to exit the program from within the program. I used four functions and a main function located in the driver.cpp file.
 
 
