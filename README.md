@@ -25,3 +25,9 @@ Testing: I tested manually in all of the ways I could imagine. I planned for use
 In the end, I am happy with the functionality I have. The program prompts the user when necessary and the user is able to exit the program from within the program. I used four functions and a main function located in the driver.cpp file.
 
 
+NOTE 04/08/2024: I realized that I can use string compare to compare the input. I looked up the implementation of using string compare in C++, and it is different than C.  
+I found a couple good implementations using string compare which is used with the built-in C++ string library.  
+
+One includes using getline to read the input and two variables, so "std::getline(std::cin, input2)" then compare that to the acceptable inputs using a conditional. I would also need to declare variables beforehand, input1 and input2, where input1 is the placeholder for the cin.  
+I really like this solution, but I don't think it makes my code simpler.  
+
